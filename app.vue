@@ -1,0 +1,3 @@
+<template>
+  <div class="bg-red-400 p-4">Hello</div>
+</template>
