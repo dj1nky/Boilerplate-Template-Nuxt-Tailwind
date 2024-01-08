@@ -1,7 +1,9 @@
 <script></script>
 
 <template>
-  <div class="bg-red-400 p-4">App Header</div>
+  <div class="bg-green-400 p-4">
+    <p>Countries of the World</p>
+  </div>
 </template>
 
 <style></style>
