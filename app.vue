@@ -18,7 +18,9 @@ import AppHeader from "@/components/AppHeader.vue";
             :key="link.to"
             class="rounded-lg bg-green-500 p-2 text-white hover:text-orange-300"
           >
-            <NuxtLink :to="link.to">{{ link.label }}</NuxtLink>
+            <NuxtLink :to="link.to">
+              {{ link.label }}
+            </NuxtLink>
           </li>
         </ul>
       </nav>
