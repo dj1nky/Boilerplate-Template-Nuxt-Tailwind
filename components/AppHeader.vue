@@ -1,9 +1,11 @@
 <script></script>
 
 <template>
-  <div class="bg-red-400 p-4">
-    App Header
-  </div>
+  <header class="bg-green p-4 text-white">
+    <main class="mx-auto container">
+      <h1>Example App Header Component</h1>
+    </main>
+  </header>
 </template>
 
 <style></style>

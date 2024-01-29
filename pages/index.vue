@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div><h1>Home Page</h1></div>
+  <section><h1>Home Page</h1></section>
 </template>
 
 <style></style>
