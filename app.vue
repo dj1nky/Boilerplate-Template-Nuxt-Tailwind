@@ -1,5 +1,4 @@
 <script setup>
-
 // Commented out if the project requires more than one page for router and links
 // const navLinks = [
 //   { to: "/", label: "Home" },
@@ -12,7 +11,7 @@ import AppHeader from "@/components/AppHeader.vue";
 <template>
   <AppHeader />
   <main class="p-4">
-    <div class="mx-auto container">
+    <div class="container mx-auto">
       <nav>
         <ul class="flex gap-4">
           <li
@@ -26,20 +25,18 @@ import AppHeader from "@/components/AppHeader.vue";
           </li>
         </ul>
       </nav>
-      
+
       <NuxtPage />
     </div>
   </main>
 </template>
 
 <style>
-
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 h1 {
   font-size: 32px;
 }
-
 </style>

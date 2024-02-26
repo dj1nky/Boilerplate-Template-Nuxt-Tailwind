@@ -2,7 +2,7 @@
 
 <template>
   <header class="bg-green p-4 text-white">
-    <main class="mx-auto container">
+    <main class="container mx-auto">
       <h1>Example App Header Component</h1>
     </main>
   </header>
